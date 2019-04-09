@@ -1,9 +1,19 @@
 # Prediction of Energy Consumption
 
-More information about the dataset is provided in the UCI repository above and inside the jupyter notebook.
+More information about the dataset is provided in the [UCI] repository and inside the jupyter notebook.
 
 ## Installation instructions
 You have to install all the dependencies given in the **requirements.txt** file.
+
+## Description
+
+We use a variety of regression models to predict appliances consumption:
+
+- Time Series (ARIMA) by using prophet library or scipy
+- Linear Regression
+- Support Vector Regression
+- Random Forests
+- XGBoost
 
 ## Deployment
 The features that we used to predict energy consumption are the following:
@@ -47,4 +57,4 @@ http://127.0.0.1:9181/forecast?lights=-0.48035045386630404&RH_1=-0.9461584664561
 You now have the prediction in your screen!
 
 
-[UCI repository]: <https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction>
+[UCI]: <https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction>
