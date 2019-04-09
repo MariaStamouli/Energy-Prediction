@@ -1,8 +1,6 @@
 # Prediction of Energy Consumption
 
-![](https://archive.ics.uci.edu/ml/assets/logo.gif)
-https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction
-More information about the dataset is provided in the link above and inside the jupyter notebook.
+More information about the dataset is provided in the UCI repository above and inside the jupyter notebook.
 
 ## Installation instructions
 You have to install all the dependencies given in the **requirements.txt** file.
@@ -47,3 +45,6 @@ http://127.0.0.1:9181/forecast?lights=-0.48035045386630404&RH_1=-0.9461584664561
 **_Please note that inserting unscaled features can be misleading_**.
 
 You now have the prediction in your screen!
+
+
+[UCI repository]: <https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction>
